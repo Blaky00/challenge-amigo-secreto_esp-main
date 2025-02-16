@@ -43,7 +43,7 @@ function sortearAmigo(){
 
     if (nombreAmigos.length === 0) {
         //alert("La lista está vacía. Agrega amigos antes de elegir.");
-        document.getElementById("resultado").textContent = "No hay amigos para sortear";
+        document.getElementById("resultado").textContent = "No hay amigos para sortear, agrega nuevos";
         return;
     }
 
